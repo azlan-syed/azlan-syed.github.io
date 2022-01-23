@@ -1,0 +1,73 @@
+*{
+    border-radius: 12px;
+}
+
+body{
+    background-color: rgb(1, 1, 26);
+}
+
+
+.sus{
+    
+    color: rgb(167, 161, 161);
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+
+.sus1{
+    font-size: 1.3rem;    
+}
+
+.sus2{
+    font-size: 1.3rem;
+}
+
+.sus3{
+    font-size: 1.3rem;
+}
+
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 75px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 12px;
+}
+.brand img{
+    width: 50px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+/* 
+
+<div class="upper">
+        <nav>
+            <ul>
+                <li class="brand"><img src="/images/Welcome.jpg" alt="Welcome">My Website</li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/webpages/about.html">About</a></li>
+                <li><a href="/webpages/blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </div>     */
