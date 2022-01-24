@@ -6,6 +6,19 @@ body{
     background-color: rgb(1, 1, 26);
 }
 
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    float:none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display:contents;
+    justify-content: space-between;
+    align-content: auto;
+}
+
 
 .sus{
     
@@ -18,7 +31,11 @@ body{
 }
 
 .sus1{
-    font-size: 1.3rem;    
+    font-size: 1.3rem; 
+    display: flex;
+    justify-content: space-between;
+    align-content: auto;
+    align-items: center;   
 }
 
 .sus2{
@@ -30,9 +47,7 @@ body{
 }
 
 
-nav{
-    font-family: 'Ubuntu', sans-serif;
-}
+
 
 nav ul{
     display: flex;
@@ -44,7 +59,7 @@ nav ul{
 }
 
 nav ul li{
-    padding: 12px;
+    padding: 24px;
 }
 .brand img{
     width: 50px;
